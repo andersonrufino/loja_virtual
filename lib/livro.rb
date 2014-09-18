@@ -1,5 +1,5 @@
 # encoding utf-8
-class Livro
+class Livro < Midia
   attr_accessor :valor
   attr_reader   :categoria, :autor, :titulo
 
