@@ -1,5 +1,6 @@
 # coding: utf-8
-require "FileUtils"
+require 'bundle/setup'
+require 'active_file'
 
 class Revista
   attr_reader   :titulo, :id
